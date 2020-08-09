@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<head>
+  <title><%= yield :title %></title>
+</head><!DOCTYPE html>
 <html>
 <head>
   <title>BlogFlash</title>
@@ -9,7 +11,9 @@
 </head>
 <body>
 
-<%= yield %>
+  <head>
+    <title><%= yield :title %></title>
+  </head>
 
 </body>
 </html>
